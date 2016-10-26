@@ -1,0 +1,53 @@
+@high: 60px;
+@average: 30px;
+@medium: 20px;
+@low: 10px;
+
+@white: #fff;
+@blue: blue;
+@blue1: #58c4a7;
+
+section{
+  padding: @average @high; 
+
+  &.hero{
+    background-image: url("../images/hero.jpg");
+    background-repeat: no-repeat;
+    background-size:cover; 
+
+    &--blue{
+      color: @white;
+      background-color: @blue;
+    }
+
+    &.center-text{
+      text-align: center;
+    }
+  }
+    .likes{
+    margin-top: 20px;
+    span{
+      padding: 15px;
+    }
+    button{
+      background-color: @blue1;
+      border: 1px solid @blue1;
+      border-radius: 7px ;
+      cursor: pointer;
+      color: @white;
+    }
+  }
+}
+
+a.btn{
+  color: @white;
+  background-color: @blue1;
+  border-color: @blue1;
+  padding: @low @medium;
+  border-radius: @low;
+
+  &:hover{
+    text-decoration: none;
+  }
+}
+
