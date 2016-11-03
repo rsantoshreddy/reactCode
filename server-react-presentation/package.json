@@ -7,7 +7,7 @@
     "dev": "webpack -d --watch",
     "build": "webpack -p"
   },
-  "author": "",
+  "author": "R Santosh Reddy",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.2.1",
